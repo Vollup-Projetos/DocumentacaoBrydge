@@ -1,13 +1,15 @@
 # API Brydge
 
 
-#### Autenticação:
+### Autenticação:
 
 É necessário passar o parâmetro API_TOKEN no HEADER da requisição
 
 **API_TOKEN** - Token de autenticação fornecido com o seu perfil
 
-### Listar Bandeiras
+### Métodos
+
+#### Listar Bandeiras
 
 URL ```/api/ListCardBrand```
 
@@ -31,7 +33,7 @@ Resposta
  ```
 
 
-### Listar Cartões de Crédito
+#### Listar Cartões de Crédito
 
 
 URL ```/api/ListCards```
@@ -52,7 +54,7 @@ Resposta
  ```
 
 
-### Cash-in Cartão de Crédito
+#### Cash-in Cartão de Crédito
 
 
 URL ```/api/CashIn```
