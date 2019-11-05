@@ -3,9 +3,9 @@
 
 #### Autenticação:
 
-É necessario passar o parâmetro API_TOKEN no HEADER da requisição
+É necessário passar o parâmetro API_TOKEN no HEADER da requisição
 
- **API_TOKEN**  - Token de autenticação fornecido com o seu perfil
+**API_TOKEN** - Token de autenticação fornecido com o seu perfil
 
 ### Listar Bandeiras
 
@@ -28,7 +28,7 @@ Resposta
    ]
 }
 
-```
+ ```
 
 
 ### Listar Cartões de Crédito
@@ -49,7 +49,7 @@ Resposta
       }
    ]
 }
-```
+ ```
 
 
 ### Cash-in Cartão de Crédito
@@ -57,14 +57,11 @@ Resposta
 
 URL ```/api/CashIn```
 
-
-
-
-Parâmetros POST (formData)
+Parâmetros POST (FormData)
 
  - **TRA_VALOR** - valor da transação
  - **CARD_ID** - ID do cartão de crédito (quando já cadastrado)
- 
+
    ou
 
  - **CARD_NUMERO** - Numero do cartão de crédito
@@ -97,4 +94,4 @@ Resposta Erro
 
 }
 ```
- 
+
