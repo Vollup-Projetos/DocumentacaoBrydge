@@ -72,8 +72,7 @@ Parâmetros POST (formData)
  - **CARD_CVC** - Código de segurança
  - **CARD_MES_VENCIMENTO** - Mas de vencimento do cartão 
  - **CARD_ANO_VENCIMENTO** - Ano de vencimento do cartão 
- - **CARD_CREDITO** - true/false para função crédito do cartão
- - **CARD_DEBITO** - true/false para função débito do cartão
+ - **CARD_CREDITO** - true/false para função crédito do cartão 
  - **BAND_ID** - ID da bandeira do cartão, pode ser obtido através do endpoint ```/API/ListCardBrand```
 
 
@@ -82,7 +81,7 @@ Resposta Sucesso
 ```json
 {
 	
-	"status":"success"
+	"status":"success",
 	"message":"Transação realizada com sucesso"
 
 }
@@ -93,7 +92,7 @@ Resposta Erro
 ```json
 {
 	
-	"status":"error"
+	"status":"error",
 	"message":"Não foi possível realizar a transação"
 
 }
