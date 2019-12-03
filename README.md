@@ -308,8 +308,6 @@ split --> subordinado2[Empresa B]
 
 
 
-
-
 ## Cadastrar Empresa Participante
 
 **Método**: `POST`
@@ -337,7 +335,7 @@ split --> subordinado2[Empresa B]
 ```json
 {	
 	"status":"success",
-	"message":"Transação realizada com sucesso",
+	"message":"Cadastro realizado com sucesso",
     "EMP_ID":"d58d2036-0733-4c5a-baf6-583ef528c257"
 }
 ```
