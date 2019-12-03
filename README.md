@@ -106,9 +106,9 @@ var response = client.Execute(request);
 
 
 
-## Endpoints
+# Endpoints
 
-### Listar Bandeiras de Cartões de Crédito
+## Listar Bandeiras de Cartões de Crédito
 
 **Método**: `GET`
 
@@ -135,7 +135,7 @@ var response = client.Execute(request);
 
 
 
-### Listar Cartões de Crédito
+## Listar Cartões de Crédito
 
 **Método**: `GET`
 
@@ -158,7 +158,7 @@ var response = client.Execute(request);
 
 
 
-### Cash-in Cartão de Crédito
+## Cash-in Cartão de Crédito
 
 **Método**: `POST`
 
@@ -229,7 +229,7 @@ var response = client.Execute(request);
 }
 ```
 
-### Pagamentos com split
+## Pagamentos com split
 
 
 
@@ -274,11 +274,45 @@ split --> subordinado2[Empresa B]
 }
 ```
 
-
-
-### Cadastrar Empresa Participante
+## Listar Empresas Participantes
 
 **Método**: `GET`
+
+**URL: **  `/empresa/`
+
+```json
+[
+    {
+        "EMP_ID":"d58d2036-0733-4c5a-baf6-583ef528c257",
+        "EMP_NOME":"Empresa A"
+    }, 
+    {
+        "EMP_ID":"11010739-c4b5-4fff-ba57-7a735be3e1b5",
+        "EMP_NOME":"Empresa B"
+    }
+]
+```
+
+## Dados de uma empresa por ID
+
+**Método**: `GET`
+
+**URL: **  `/empresa/{id}`
+
+```json
+{
+        "EMP_ID":"d58d2036-0733-4c5a-baf6-583ef528c257",
+        "EMP_NOME":"Empresa A"
+} 
+```
+
+
+
+
+
+## Cadastrar Empresa Participante
+
+**Método**: `POST`
 
 **URL: **  `/empresa/`
 
@@ -316,5 +350,3 @@ split --> subordinado2[Empresa B]
 	"message":"Não foi possível cadastrar empresa"
 }
 ```
-
-### 
